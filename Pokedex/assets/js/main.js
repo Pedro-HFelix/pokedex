@@ -8,8 +8,8 @@ let offset = 0;
 function convertPokemonToLi(pokemon) {
     return `
         <li class="pokemon ${pokemon.type}">
-            <span class="number">#${pokemon.number}</span>
-            <span class="name">${pokemon.name}</span>
+            <span class="Numero Pokemon">#${pokemon.number}</span>
+            <span class="Nome Pokemon:">${pokemon.name}</span>
 
             <div class="detail">
                 <ol class="types">
